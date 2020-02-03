@@ -1,11 +1,8 @@
-/* CSS files add styling rules to your content */
-
-body {
-  font-family: helvetica, arial, sans-serif;
-  margin: 2em;
+body{
+  background: url("https://i.etsystatic.com/17307810/r/il/b84e5b/1737344052/il_fullxfull.1737344052_tpqv.jpg") no-repeat ;
+      background-size: 99%;
 }
 
-h1 {
-  font-style: italic;
-  color: #373fff;
+.navbar{
+    padding-left: 50px
 }
