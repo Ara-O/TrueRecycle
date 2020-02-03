@@ -1,8 +1,6 @@
 body{
-  background: url("https://i.etsystatic.com/17307810/r/il/b84e5b/1737344052/il_fullxfull.1737344052_tpqv.jpg") no-repeat ;
-      background-size: 99%;
+  background: url("\https://www.nationalgeographic.com/content/dam/environment/2019/06/plastic_pollution/01_plastic_nationalgeographic_2702698.ngsversion.1559148959954.adapt.1900.1.jpg") no-repeat ;
+      background-size: 100%;
+
 }
 
-.navbar{
-    padding-left: 50px
-}
