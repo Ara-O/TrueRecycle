@@ -1,24 +1,6 @@
 body{
-  background: url("\https://www.nationalgeographic.com/content/dam/environment/2019/06/plastic_pollution/01_plastic_nationalgeographic_2702698.ngsversion.1559148959954.adapt.1900.1.jpg") no-repeat ;
+  background: url("https://media.mnn.com/assets/images/2017/12/BottomOfOceanCoralSunlight.jpg.653x0_q80_crop-smart.jpg") no-repeat ;
       background-size: 100%;
 
 }
 
-.logo {
-    width: 9%;
-    margin-left: 25px;
-    margin-top: -10px;
-}
-
-
-li{
-
-    margin-right: 73px;
-    display: inline;
-    float: right;
-    color: white;
-    font-family: sans-serif;
-    font-size: 21px;
-    margin-top: -27px;
-}
-}
