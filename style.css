@@ -16,13 +16,8 @@ img {
 .motto{
     color: white;
     font-size: 82px;
-    width: 414px;
-      margin-left: 550px;
-    margin-top: 77px;
-}
-
-.move {
     text-align: center;
+    
 }
 
 a.nav-link {
@@ -44,4 +39,8 @@ button{
 
 .callto{
    border-radius: 40px;
+}
+
+.nextpage{
+  text-align: center;
 }
