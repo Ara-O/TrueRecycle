@@ -9,6 +9,24 @@ img {
     border-style: none;
     width: 45%;
     margin-right: -383px;
-    margin-top: -10px;
-    margin-bottom: -3px;
+     margin-top: -11px;
+    margin-bottom: -8px;
+}
+
+.motto{
+    color: white;
+    font-size: 82px;
+    width: 414px;
+      margin-left: 550px;
+    margin-top: 77px;
+}
+
+.move {
+    text-align: center;
+}
+
+a.nav-link {
+    font-size: 17px;
+    margin-left: 51px;
+    font-family: sans-serif;
 }
