@@ -1,7 +1,7 @@
 body{
   background: url("https://images.pexels.com/photos/34950/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940") no-repeat ;
       background-size: 1537px;
-
+    margin-bottom: 80px;
 }
 
 img {
@@ -29,4 +29,17 @@ a.nav-link {
     font-size: 17px;
     margin-left: 51px;
     font-family: sans-serif;
+}
+
+button{
+    width: 214px;
+    background-color: white;
+    padding: 12px;
+    font-family: sans-serif;
+    font-weight: 700;
+   
+}
+
+.callto{
+   border-radius: 40px;
 }
