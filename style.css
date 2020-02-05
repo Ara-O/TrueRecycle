@@ -4,3 +4,11 @@ body{
 
 }
 
+img {
+    vertical-align: middle;
+    border-style: none;
+    width: 45%;
+    margin-right: -383px;
+    margin-top: -10px;
+    margin-bottom: -3px;
+}
