@@ -53,9 +53,10 @@ img {
 }
 
 #recycleman{
-  width: 23%;
-  margin-top: 100px;
-  margin-left: 200px
+      width: 20%;
+    margin-top: 100px;
+    margin-left: 500px;
+    margin-bottom: 30px;
 }
 
 .words{
@@ -64,9 +65,21 @@ img {
     text-align: center;
     padding-left: 275px;
     padding-right: 188px;
-    font-size: 34px;
+    font-size: 25px;
+    padding-top: 30px;
+    padding-bottom: 20px;
 }
 
+.theabout{
+    background-color: #20803d;
+    width: 1263px;
+    margin-left: 50px;
+    border-radius: 37px;
+}
+
+.signup{
+  text-align: center
+}
 
 
 @media only screen and (max-width: 600px) {
