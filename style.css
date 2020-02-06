@@ -53,9 +53,9 @@ img {
 }
 
 #recycleman{
-     width: 25%;
+     width: 23%;
     margin-top: 75px;
-    margin-left: 500px;
+    margin-left: 579px;
     margin-bottom: 30px;
 }
 
@@ -65,20 +65,26 @@ img {
     text-align: center;
     padding-left: 275px;
     padding-right: 188px;
-    font-size: 25px;
+    font-size: 26px;
     padding-top: 30px;
     padding-bottom: 20px;
       font-weight: 700;
+  line-height: 35px
 }
 
 
 .signup{
-margin-left: 633px;
+    margin-left: 734px;
     border: 0.1px solid;
     padding: 17px;
     background-color: white;
     border-radius: 20px;
- 
+    color: black;
+}
+
+.signup:hover{
+  color: black;
+  text-decoration: underline;
 }
 
 .down{
