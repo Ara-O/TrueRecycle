@@ -17,6 +17,7 @@ img {
     color: white;
     font-size: 82px;
     text-align: center;
+    padding: 5px;
     
 }
 
@@ -45,7 +46,15 @@ img {
 }
 
 
+@media only screen and (max-width: 600px) {
 .navbar{
   width: 450px
-    
+  }
+  
+  .motto{
+    font-size: 60px;
+    margin-left: 20px;
+    position: fixed
+  }
+  
 }
