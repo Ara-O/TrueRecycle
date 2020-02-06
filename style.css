@@ -29,6 +29,12 @@ img {
     border-style: none;
     border-radius: 40px;
     padding: 19px;
+  color: black;
+}
+
+.callto:hover{
+  color: black;
+  text-decoration: underline;
 }
 
 .nextpage{
@@ -47,9 +53,20 @@ img {
 }
 
 #recycleman{
-  width: 50%;
-  
+  width: 23%;
+  margin-top: 100px;
+  margin-left: 200px
 }
+
+.words{
+ font-family: sans-serif;
+    color: white;
+    text-align: center;
+    padding-left: 275px;
+    padding-right: 188px;
+    font-size: 34px;
+}
+
 
 
 @media only screen and (max-width: 600px) {
