@@ -91,6 +91,23 @@ img {
   margin-bottom: 20px;
 }
 
+
+.sign{
+      color: white;
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: 120px;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.signform{
+    padding-top: 33px;
+    padding-left: 250px;
+    padding-right: 200px;
+    color: white;
+}
+
 @media only screen and (max-width: 600px) {
   .navbar {
     width: 450px;
