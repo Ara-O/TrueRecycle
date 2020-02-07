@@ -1,108 +1,121 @@
-body{
-  background: url("https://images.pexels.com/photos/34950/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940") no-repeat ;
-      background-size: 1537px;
-    margin-bottom: 80px;
+body {
+  background: url("https://images.pexels.com/photos/34950/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940")
+    no-repeat;
+  background-size: 1537px;
+  margin-bottom: 80px;
 }
 
 img {
-    vertical-align: middle;
-    border-style: none;
-    width: 45%;
-    margin-right: -383px;
-     margin-top: -11px;
-    margin-bottom: -8px;
+  vertical-align: middle;
+  border-style: none;
+  width: 45%;
+  margin-right: -383px;
+  margin-top: -11px;
+  margin-bottom: -8px;
 }
 
-.motto{
-    color: white;
-    font-size: 82px;
-    text-align: center;
-    padding: 5px;
-    
+.motto {
+  color: white;
+  font-size: 82px;
+  text-align: center;
+  padding: 5px;
 }
 
-.callto{
-   width: 214px;
-    background-color: white;
-    font-family: sans-serif;
-    font-weight: 700;
-    border-style: none;
-    border-radius: 40px;
-    padding: 19px;
+.callto {
+  width: 214px;
+  background-color: white;
+  font-family: sans-serif;
+  font-weight: 700;
+  border-style: none;
+  border-radius: 40px;
+  padding: 19px;
   color: black;
 }
 
-.callto:hover{
+.callto:hover {
   color: black;
   text-decoration: underline;
 }
 
-.nextpage{
+.nextpage {
   text-align: center;
-  margin-top: 60px
-}  
+  margin-top: 60px;
+}
 
-.move{
+.move {
   margin-top: 100px;
   margin-bottom: 100px;
 }
 
-.nav-link{
+.nav-link {
   margin-top: 10px;
-  font-size: 18px
+  font-size: 18px;
 }
 
-#recycleman{
-     width: 23%;
-    margin-top: 75px;
-    margin-left: 579px;
-    margin-bottom: 30px;
+#recycleman {
+  width: 23%;
+  margin-top: 75px;
+  margin-left: 579px;
+  margin-bottom: 30px;
 }
 
-.words{
- font-family: sans-serif;
-    color: white;
-    text-align: center;
-    padding-left: 275px;
-    padding-right: 188px;
-    font-size: 26px;
-    padding-top: 30px;
-    padding-bottom: 20px;
-      font-weight: 700;
-  line-height: 35px
+.words {
+  font-family: sans-serif;
+  color: white;
+  text-align: center;
+  padding-left: 275px;
+  padding-right: 188px;
+  font-size: 26px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  font-weight: 700;
+  line-height: 35px;
 }
 
-
-.signup{
-    margin-left: 734px;
-    border: 0.1px solid;
-    padding: 17px;
-    background-color: white;
-    border-radius: 20px;
-    color: black;
-    font-weight: 650;
-
+.signup {
+  margin-left: 734px;
+  border: 0.1px solid;
+  padding: 17px;
+  background-color: white;
+  border-radius: 20px;
+  color: black;
+  font-weight: 650;
 }
 
-.signup:hover{
+.signup:hover {
   color: black;
   text-decoration: underline;
 }
 
-.down{
-   margin-bottom: 20px
+.down {
+  margin-bottom: 20px;
 }
 
-
 @media only screen and (max-width: 600px) {
-.navbar{
-  width: 450px
+  .navbar {
+    width: 450px;
   }
-  
-  .motto{
+
+  .motto {
     font-size: 60px;
     margin-left: 20px;
-    
   }
-  
+
+  .words {
+    padding-left: 44px;
+    padding-right: 0px;
+    font-size: 22.5px;
+    margin-top: -25px;
+  }
+
+  .signup {
+    margin-left: 175px;
+  }
+
+  #recycleman {
+    margin-left: 130px;
+    width: 50%;
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
 }
