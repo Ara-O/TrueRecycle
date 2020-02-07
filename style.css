@@ -118,6 +118,17 @@ margin-left: -12px;
     width: 210%;
 }
 
+button.btn.btn-primary {
+    border: 0.1px;
+    background-color: white;
+    color: black;
+    padding: 14px;
+    width: 100px;
+    border-radius: 30px;
+    margin-left: 480px;
+    margin-bottom: 30px;
+}
+
 @media only screen and (max-width: 600px) {
   .navbar {
     width: 450px;
