@@ -91,42 +91,41 @@ img {
   margin-bottom: 20px;
 }
 
-
-.sign{
-      color: white;
-    font-family: sans-serif;
-    text-align: center;
-    margin-top: 120px;
-    font-size: 50px;
-    font-weight: 700;
+.sign {
+  color: white;
+  font-family: sans-serif;
+  text-align: center;
+  margin-top: 120px;
+  font-size: 50px;
+  font-weight: 700;
 }
 
-.signform{
-    padding-top: 33px;
-    padding-left: 250px;
-    padding-right: 200px;
-    color: white;
+.signform {
+  padding-top: 33px;
+  padding-left: 250px;
+  padding-right: 200px;
+  color: white;
 }
 
-#emailstuff{
-margin-left: -12px;
-    width: 210%;
+#emailstuff {
+  margin-left: -12px;
+  width: 210%;
 }
 
-#emailstuff2{
-margin-left: -12px;
-    width: 210%;
+#emailstuff2 {
+  margin-left: -12px;
+  width: 210%;
 }
 
 button.btn.btn-primary {
-    border: 0.1px;
-    background-color: white;
-    color: black;
-    padding: 14px;
-    width: 100px;
-    border-radius: 30px;
-    margin-left: 480px;
-    margin-bottom: 30px;
+  border: 0.1px;
+  background-color: white;
+  color: black;
+  padding: 14px;
+  width: 100px;
+  border-radius: 30px;
+  margin-left: 0px;
+  margin-bottom: 30px;
 }
 
 @media only screen and (max-width: 600px) {
@@ -156,5 +155,35 @@ button.btn.btn-primary {
     margin-top: 30px;
     margin-bottom: 20px;
   }
+
+  .button.btn.btn-primary {
+    margin-left: -120px;
+  }
+
+  .signform {
+    padding-top: 33px;
+    padding-left: 80px;
+    padding-right: 80px;
+    color: white;
+  }
+
+  #emailstuff {
+    margin-left: -12px;
+    width: 113.5%;
+        margin-bottom: -11px;
+  }
+
+  #emailstuff2 {
+    margin-left: -12px;
+    width: 113.5%;
+        margin-bottom: -11px;
+  }
   
+  #inputZip{
+    display: none;
+  }
+  
+  #gridCheck{
+    display: none
+  }
 }
