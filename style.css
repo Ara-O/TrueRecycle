@@ -1,7 +1,7 @@
 body {
   background: url("https://images.pexels.com/photos/34950/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940")
     no-repeat;
-  background-size: 1537px;
+  background-size: 100%;
   margin-bottom: 80px;
 }
 
@@ -80,6 +80,10 @@ img {
   border-radius: 20px;
   color: black;
   font-weight: 650;
+}
+
+#centerall{
+   text-align: center
 }
 
 .signup:hover {
