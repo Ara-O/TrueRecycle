@@ -1,18 +1,58 @@
 body {
-  background: url("https://images.pexels.com/photos/34950/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940")
-    no-repeat;
+     no-repeat;
   background-size: 100%;
   margin-bottom: 80px;
 }
 
-img {
-  vertical-align: middle;
-  border-style: none;
-  width: 45%;
-  margin-right: -383px;
-  margin-top: -11px;
-  margin-bottom: -8px;
-}
+
+  .homepage-hero-module {
+    border-right: none;
+    border-left: none;
+    position: relative;
+  }
+
+  .no-video .video-container video,
+  .touch .video-container video {
+    display: none;
+  }
+
+  .no-video .video-container .poster,
+  .touch .video-container .poster {
+    display: block !important;
+  }
+
+  .video-container {
+    position: relative;
+    bottom: 0%;
+    left: 0%;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    background: #000;
+  }
+
+  .video-container .poster img {
+    width: 100%;
+    bottom: 0;
+    position: absolute;
+  }
+
+  .video-container .filter {
+    z-index: 100;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.4);
+    width: 100%;
+  }
+
+  .video-container video {
+    position: absolute;
+    z-index: 0;
+    bottom: 0;
+  }
+
+  .video-container video.fillWidth {
+    width: 100%;
+  }
 
 .motto {
   color: white;
@@ -55,7 +95,7 @@ img {
 #recycleman {
   width: 23%;
   margin-top: 75px;
-  margin-left: 579px;
+  
   margin-bottom: 30px;
 }
 
@@ -72,8 +112,16 @@ img {
   line-height: 35px;
 }
 
+.logoo{
+    vertical-align: middle;
+  border-style: none;
+  width: 45%;
+  margin-right: -383px;
+  margin-top: -11px;
+  margin-bottom: -8px;
+}
+
 .signup {
-  margin-left: 734px;
   border: 0.1px solid;
   padding: 17px;
   background-color: white;
