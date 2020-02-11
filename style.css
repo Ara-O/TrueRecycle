@@ -46,7 +46,7 @@ body {
 #recycleman {
   width: 23%;
   margin-top: 75px;
-  
+
   margin-bottom: 30px;
 }
 
@@ -61,11 +61,11 @@ body {
   padding-bottom: 20px;
   font-weight: 700;
   line-height: 35px;
-   text-shadow: 2px 2px 4px #000000;
+  text-shadow: 2px 2px 4px #000000;
 }
 
-.logoo{
-    vertical-align: middle;
+.logoo {
+  vertical-align: middle;
   border-style: none;
   width: 45%;
   margin-right: -383px;
@@ -82,8 +82,8 @@ body {
   font-weight: 650;
 }
 
-#centerall{
-   text-align: center
+#centerall {
+  text-align: center;
 }
 
 .signup:hover {
@@ -133,10 +133,11 @@ button.btn.btn-primary {
 }
 
 @media only screen and (max-width: 600px) {
-  body{
-    background-size:1537px;
+  body {
+    background-size: 1537px;
+    background-repeat: repeat-y;
   }
-  
+
   .navbar {
     width: 450px;
   }
@@ -164,37 +165,35 @@ button.btn.btn-primary {
     margin-bottom: 20px;
   }
 
-  
-
   .signform {
-   padding-top: 33px;
+    padding-top: 33px;
     padding-left: 80px;
     padding-right: 52px;
     color: white;
     margin-left: 22px;
-        margin-top: -40px;
+    margin-top: -40px;
   }
 
   #emailstuff {
     margin-left: -15px;
     width: 113.5%;
-        margin-bottom: -11px;
+    margin-bottom: -11px;
   }
 
   #emailstuff2 {
     margin-left: -12px;
     width: 113.5%;
-        margin-bottom: -11px;
+    margin-bottom: -11px;
   }
-  
-  #inputZip{
+
+  #inputZip {
     display: none;
   }
-  
-  #gridCheck{
-    display: none
+
+  #gridCheck {
+    display: none;
   }
-  
+
   .sign {
     color: white;
     font-family: sans-serif;
@@ -203,9 +202,8 @@ button.btn.btn-primary {
     font-size: 50px;
     font-weight: 700;
     margin-left: -50px;
-    
   }
-  
+
   button.btn.btn-primary {
     border: 0.1px;
     background-color: white;
@@ -217,15 +215,13 @@ button.btn.btn-primary {
     margin-bottom: 30px;
     margin-top: -10px;
     margin-left: -4px;
-}
-  
+  }
+
   label.form-check-label {
     display: none;
-}
-  
+  }
+
   .form-group.col-md-2 {
     display: none;
-}
-  
-  
+  }
 }
