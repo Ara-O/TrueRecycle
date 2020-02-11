@@ -28,14 +28,6 @@ body {
   text-decoration: underline;
 }
 
-#myVideo {
-  position: fixed;
-  right: 0;
-  bottom: 0;
-  min-width: 100%;
-  min-height: 100%;
-}
-
 .nextpage {
   text-align: center;
   margin-top: 60px;
@@ -141,6 +133,10 @@ button.btn.btn-primary {
 }
 
 @media only screen and (max-width: 600px) {
+  body{
+    background-size:1537px;
+  }
+  
   .navbar {
     width: 450px;
   }
@@ -158,11 +154,11 @@ button.btn.btn-primary {
   }
 
   .signup {
-    margin-left: 175px;
+    margin-left: 0px;
   }
 
   #recycleman {
-    margin-left: 130px;
+    margin-left: 0px;
     width: 50%;
     margin-top: 30px;
     margin-bottom: 20px;
@@ -206,7 +202,7 @@ button.btn.btn-primary {
     margin-top: 80px;
     font-size: 50px;
     font-weight: 700;
-    margin-left: 45px;
+    margin-left: -50px;
     
   }
   
