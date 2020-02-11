@@ -95,7 +95,7 @@
   font-family: sans-serif;
   text-align: center;
   margin-top: 120px;
-  font-size: 50px;
+  font-size: 60px;
   font-weight: 700;
 }
 
@@ -134,7 +134,7 @@ button.btn.btn-primary {
   }
 
   .navbar {
-    width: auto;
+    width: 353px;
   }
 
   .motto {
@@ -171,13 +171,13 @@ button.btn.btn-primary {
 
   #emailstuff {
     margin-left: -15px;
-    width: 113.5%;
+    width: 121.5%;
     margin-bottom: -11px;
   }
 
   #emailstuff2 {
     margin-left: -12px;
-    width: 113.5%;
+    width: 121.5%;
     margin-bottom: -11px;
   }
 
@@ -196,7 +196,7 @@ button.btn.btn-primary {
     margin-top: 80px;
     font-size: 50px;
     font-weight: 700;
-    margin-left: -50px;
+    margin-left: 50px;
   }
 
   button.btn.btn-primary {
